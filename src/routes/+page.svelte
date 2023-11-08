@@ -78,14 +78,15 @@
 
     .accueil{
         padding-left: 100px;
-        padding-top: 40px;
+        padding-top: 100px;
         display: flex;
     }
 
     .fournisseurs{
         position: relative;
-        border: 1px solid red;
-        width: 50%;
+        width: 43%;
+        padding-bottom: 22%;
+        margin-left: 13%;
     }
 
     .fournisseurs img{
@@ -106,7 +107,7 @@
 
     .fournisseurs > img:nth-child(3){
         position: absolute;
-        bottom: 10%;
+        bottom: 15%;
         left: 0;
     }
 
