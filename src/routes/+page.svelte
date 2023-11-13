@@ -83,7 +83,7 @@
 
     .accueil{
         padding-left: 100px;
-        padding-top: 40px;
+        padding-top: 100px;
         display: flex;
     }
 
