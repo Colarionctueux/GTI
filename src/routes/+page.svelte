@@ -112,7 +112,7 @@
 
     .fournisseurs > img:nth-child(3){
         position: absolute;
-        bottom: 10%;
+        bottom: 15%;
         left: 5%;
     }
 
