@@ -1,3 +1,7 @@
+<script>
+    import Contacts from "$components/Contacts.svelte";
+</script>
+
 <main>
     <img src="/assets/top-bg.svg" alt="top background">
     <nav>
@@ -23,6 +27,7 @@
             <p>Voir d'autres</p>
         </div>
     </section>
+    <Contacts />
 </main>
 
 <style>
@@ -34,7 +39,7 @@
         z-index: -1;
         position: absolute;
         width: 100%;
-        top:0;
+        top:-13%;
         left:0;
     }
 
@@ -84,8 +89,9 @@
 
     .fournisseurs{
         position: relative;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 50%;
+        margin-left: 20px;
     }
 
     .fournisseurs img{
@@ -107,7 +113,7 @@
     .fournisseurs > img:nth-child(3){
         position: absolute;
         bottom: 10%;
-        left: 0;
+        left: 5%;
     }
 
     .fournisseurs p{
