@@ -1,7 +1,12 @@
 <script>
+// @ts-nocheck
+
     import { faPhoneSquareAlt, faEnvelope, faLongArrowRight} from "@fortawesome/free-solid-svg-icons";
     import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
     import Fa from "svelte-fa";
+    function sendemail(){
+        window.location = "mailto:stephane.eckman@gestion-technique-informatisee.fr"
+    }
 </script>
 
 <main>
@@ -13,7 +18,7 @@
     </div>
     <div>
         <button>Demander un devis</button>
-        <button>Contacter  <span><Fa icon={faLongArrowRight} /></span></button>
+        <button on:click={sendemail}>Contacter<span><Fa icon={faLongArrowRight} /></span></button>
     </div>
 </main>
 <style>
@@ -23,7 +28,7 @@
         height: 186px;
         margin: 5%;
         margin-top: 1%;
-        margin-bottom: 0;
+        margin-bottom: 220px;
         background-color: white;
         display: flex;
         align-items: center;
@@ -40,18 +45,15 @@
         font-family: "Prompt", sans-serif;
         font-weight: 200;
         margin : 0;
+        font-size: 1.3em;
     }
 
-    main>div:first-of-type{
+    div:first-of-type{
         padding-left: 50px;
         width: 50%;
     }
-
-    main>:first-of-type p{
-        font-size: 1.3em;
-    }
     
-    main div:last-of-type{
+    div:last-of-type{
         border-left: 1.6px solid rgba(0, 0, 0, 14%);
         display: flex;
         justify-content: space-evenly;
@@ -62,23 +64,41 @@
     
     button{
         font-size: 1.3em;
-        background-color: white;
+        background-size: 100% 200%;
         border: 2px solid #0B8FB8;
         border-radius: 10px;
         height: 67px;
         width: 258px;
         font-weight: 200;
-        color: #0B8FB8;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        transition: all .3s ease;
     }
 
-    main div:last-of-type button:first-of-type{
-        background-color: #0B8FB8;
+    button:last-of-type{
+        background-image: linear-gradient(to top, #0B8FB8 50%, white 50%);
+        color: #0B8FB8;
+    }
+
+    button:first-of-type{
+        background-image: linear-gradient(to bottom, #0B8FB8 50%, white 50%);
         color: white;
     }
 
     span{
         margin-left: 15px;
+    }
+
+    button:first-of-type:hover{
+        background-position: 0 -100%;
+        box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+        color: #0B8FB8;
+    }
+
+    
+    button:last-of-type:hover{
+        background-position: 0 -100%;
+        box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+        color: #ffffff;
     }
 
 </style>
