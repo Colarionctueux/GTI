@@ -97,39 +97,39 @@
   </section>
   <section class="fournisseurs">
   <div>
-    <img src="/assets/trend.png" alt="logo fournisseur trend" />
+    <picture><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
   </div>
   <div>
-    <img src="/assets/wago.png" alt="logo fournisseur wago" />
+    <picture><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
   </div>
   <div>
-    <img src="/assets/distech.png" alt="logo fournisseur distech" />
+    <picture><img src="/assets/distech.png" alt="logo fournisseur distech" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
   </div>
   <div>
-    <img src="/assets/distech.png" alt="logo fournisseur distech" />
+    <picture><img src="/assets/distech.png" alt="logo fournisseur distech" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
   </div>
   <div>
-    <img src="/assets/trend.png" alt="logo fournisseur trend" />
+    <picture><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
   </div>
   <div>
-    <img src="/assets/wago.png" alt="logo fournisseur wago" />
+    <picture><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
   </div>
   <div>
-    <img src="/assets/wago.png" alt="logo fournisseur wago" />
+    <picture><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
   </div>
   <div>
-    <img src="/assets/distech.png" alt="logo fournisseur distech" />
+    <picture><img src="/assets/distech.png" alt="logo fournisseur distech" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
   </div>
   <div>
-    <img src="/assets/trend.png" alt="logo fournisseur trend" />
+    <picture><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture>
     <button><Fa icon={faLongArrowDown} /></button>
     </div>
   </section>
@@ -330,18 +330,41 @@
     align-items: center;
     transform: translateY(0);
   }
-
+  
   .fournisseurs img {
+    width: 100%;
     height: 110px;
+  }
+  
+  picture{
+    border-radius: 10px;
+    box-sizing: border-box;
     margin: 50px;
     transition: all .3s;
     background-color: rgb(255, 255, 255);
     border: 1px solid #002b3d;
-    border-radius: 10px;
     padding: 10px;
     z-index: 1;
-    width: 100%;
     display: block;
+    position: relative;
+    /* display: contents; */
+  }
+
+  .fournisseurs picture::after{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 39px;
+    height: 4px;
+    z-index: 20000;
+    background-color: white;
+    opacity: 0;
+  }
+
+  .fournisseurs picture:hover::after{
+    opacity: 1;
   }
   
   .fournisseurs button{
@@ -352,7 +375,7 @@
     transition: all .3s;
     color: #002b3d;
     background-color: rgb(255, 255, 255);
-    border-radius: 0 0 25% 25%;
+    border-radius: 0;
     height: 40px;
     width: 40px;
     font-size: 1.4em;
@@ -360,11 +383,12 @@
     border-top: none;
   }
   
-  .fournisseurs div:hover button{
-    transform: translateY(24px);
+  .fournisseurs picture:hover + button{
+    border-radius: 0 0 25% 25%;
+    transform: translateY(23px);
   }
 
-  .fournisseurs div:hover img{
+  .fournisseurs picture:hover{
     transform: translateY(-23px);
   }
 
