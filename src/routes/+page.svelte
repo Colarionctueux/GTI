@@ -329,10 +329,10 @@
     justify-content: center;
     align-items: center;
     transform: translateY(0);
+    max-width: 450px;
   }
   
   .fournisseurs img {
-    width: 100%;
     height: 110px;
   }
   
@@ -347,7 +347,6 @@
     z-index: 1;
     display: block;
     position: relative;
-    /* display: contents; */
   }
 
   .fournisseurs picture::after{
