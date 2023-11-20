@@ -20,14 +20,13 @@
     <div>
       <h1>Gestion technique informatisée</h1>
       <p>
-        Spécialistes de la gestion technique des bâtiments capables d’assembler
-        et mettre en œuvre des systèmes ouverts au besoin du client
+        Depuis 1999, nous apportons un soin à mettre en oeuvre et accompagner nos clients dans l’intégration de systèmes de gestion technique du bâtiment en France et au Bénélux. 
       </p>
     </div>
     <div class="side-accueil">
-      <img src="/assets/trend.png" alt="logo fournisseur trend" />
-      <img src="/assets/wago.png" alt="logo fournisseur wago" />
-      <img src="/assets/distech.png" alt="logo fournisseur distech" />
+      <img src="/assets/fournisseurs/trend.png" alt="logo fournisseur trend" />
+      <img src="/assets/fournisseurs/wago.png" alt="logo fournisseur wago" />
+      <img src="/assets/fournisseurs/distech.png" alt="logo fournisseur distech" />
       <a href="#fournisseurs">Voir d'autres</a>
     </div>
   </section>
@@ -40,51 +39,46 @@
     </h2>
   </section>
   <section class="competences">
-    <Competence src="/assets/datacenter.png" alt="Datacenter">
+    <Competence src="/assets/competences/datacenter.png" alt="Datacenter">
       <span slot="title"> Datacenter </span>
       <span slot="paragraph"
-        >Nous intervenons dans les data centers pour faire des trucs mais je ne
-        sais pas quoi moi je fais juste des sites je demanderai quoi mettre</span
+        >Assurez le contrôle et suivi des conditions climatique intérieur à l’aide d’automatisme en redondance.</span
       >
     </Competence>
     <Competence
-      src="/assets/sports.png"
+      src="/assets/competences/sports.png"
       alt="tuyauterie sous-terraine de piscine"
     >
       <span slot="title"> Sports et loisirs </span>
       <span slot="paragraph"
-        >Nous offrons nos services à des piscines et je coble le vide parceque
-        je sais pas exactement ce que vous faites pour les piscines</span
+        >GTB de complexes aquatiques en passant par l’automatisation des filtrations et la gestion des salle de sport.</span
       >
     </Competence>
     <Competence
-      src="/assets/bureaux.png"
+      src="/assets/competences/bureaux.png"
       alt="immeubles vue en contre-plongée avec les ciel derriere"
     >
       <span slot="title"> Bureaux </span>
       <span slot="paragraph"
-        >Les bureaux ca nous connait parcequ’on travaille dedans comme 99% des
-        entreprises je pense et ca parrait assez logique</span
+        >Mise à disposition de systèmes permettant aux utilisateurs finaux de contrôler entièrement leur environnement de lieu de travail.</span
       >
     </Competence>
     <Competence
-      src="/assets/education.png"
+      src="/assets/competences/education.png"
       alt="étudiant lisant un livre dans une bibliothèque moderne"
     >
       <span slot="title"> Éducations </span>
       <span slot="paragraph"
-        >Les écoles peuvent profiter de nos services pour etre connecté a
-        internet ou je sais pas je comble pour faire semblant</span
+        >De la crèche à l’université accompagner les futures générations dans des bâtiments modernes et efficient via les automatismes du bâtiment.</span
       >
     </Competence>
     <Competence
-      src="/assets/sante.png"
+      src="/assets/competences/sante.png"
       alt="Materiel médical issu d'un hopital"
     >
       <span slot="title"> Santé </span>
       <span slot="paragraph"
-        >La santé c’est important, mangez au moins cinq fruits et légumes par
-        jour, ne mangez pas entre les repas et brossez vous les dents</span
+        >Système de GTC des bâtiments, pour apporter aux usagers un confort et une aide au pilotage de ce type de bâtiment.</span
       >
     </Competence>
   </section>
@@ -96,86 +90,50 @@
   </section>
   <section class="fournisseurs">
     <div>
-      <picture
-        ><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture
-      >
+      <picture><img src="/assets/fournisseurs/trend.png" alt="logo fournisseur trend orange" /></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
     <div>
-      <picture
-        ><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture
-      >
+      <picture><img src="/assets/fournisseurs/wago.png" alt="logo fournisseur wago vert" /></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
     <div>
-      <picture
-        ><img
-          src="/assets/distech.png"
-          alt="logo fournisseur distech"
-        /></picture
-      >
+      <picture><img src="/assets/fournisseurs/distech.png" alt="logo fournisseur distech bleu"/></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
     <div>
-      <picture
-        ><img
-          src="/assets/distech.png"
-          alt="logo fournisseur distech"
-        /></picture
-      >
+      <picture><img src="/assets/fournisseurs/honeywell.png" alt="logo fournisseur honeywell rouge"/></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
     <div>
-      <picture
-        ><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture
-      >
+      <picture><img src="/assets/fournisseurs/belimo.png" alt="logo fournisseur belimo orange et noir" /></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
     <div>
-      <picture
-        ><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture
-      >
+      <picture><img src="/assets/fournisseurs/thermokon.svg" alt="logo fournisseur thermokon rouge" /></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
     <div>
-      <picture
-        ><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture
-      >
+      <picture><img src="/assets/fournisseurs/metz.png" alt="logo fournisseur metz connect bleu foncé et noir" /></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
     <div>
-      <picture
-        ><img
-          src="/assets/distech.png"
-          alt="logo fournisseur distech"
-        /></picture
-      >
-      <button><Fa icon={faLongArrowDown} /></button>
-    </div>
-    <div>
-      <picture
-        ><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture
-      >
+      <picture><img src="/assets/fournisseurs/KEP.png" alt="logo KEP IoT vert et gris foncé" /></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
   </section>
+  <section id="clients">
+    <h2>Nos clients installateurs <br />
+       qui nous font confiance</h2>
+  </section>
   <section class="clients">
-    <section id="clients">
-      <h2>Les clients qui nous font confiance</h2>
-      <h2>Nos clients constructeurs</h2>
-    </section>
-    <div>
       <div>
-        <img src="/assets/cofidis.png" alt="logo cofidis" />
-        <img src="/assets/helicea.png" alt="logo hélicéa piscines" />
-        <img src="/assets/centerparcs.png" alt="logo center parcs" />
+        <img src="/assets/installateurs/delannoydewailly.png" alt="logo delannoy dewailly" />
+        <img src="/assets/installateurs/dalkia.png" alt="logo dalkia, groupe edf" />
+        <img src="/assets/installateurs/engie.png" alt="logo engie solutions" />
+        <img src="/assets/installateurs/brunet.png" alt="logo brunet alpha clima, l'offre multitechnique de proximité, Ortec group" />
+        <img src="/assets/installateurs/herve-thermique.png" alt="logo brunet alpha clima, l'offre multitechnique de proximité, Ortec group" />
       </div>
-      <div>
-        <img src="/assets/cofidis.png" alt="logo cofidis" />
-        <img src="/assets/helicea.png" alt="hélicéa piscines" />
-        <img src="/assets/centerparcs.png" alt="logo center parcs" />
-      </div>
-    </div>
   </section>
   <footer>
     <img src="/assets/Logo.svg" alt="logo GTI" />
@@ -270,7 +228,7 @@
   }
 
   .accueil div:first-of-type {
-    width: 50%;
+    width: 49%;
   }
 
   .side-accueil {
@@ -406,7 +364,11 @@
     background-color: white;
     opacity: 0;
   }
-
+  
+  img[src*="KEP.png"]{
+    width: 100%;
+  }
+  
   .fournisseurs picture:hover::after {
     opacity: 1;
   }
@@ -427,6 +389,7 @@
     border-top: none;
   }
 
+
   .fournisseurs picture:hover + button {
     border-radius: 0 0 25% 25%;
     transform: translateY(23px);
@@ -439,43 +402,29 @@
   #clients {
     position: relative;
     height: 200px;
-    color: #002b3d;
+  }
+
+  #clients h2 {
+    top: 0;
+    left: 195px;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-
-  #clients h2:last-of-type {
-    right: 9%;
-    width: 27%;
-  }
-
-  #clients h2:first-of-type {
-    left: 12%;
-    width: 25%;
   }
 
   .clients {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .clients > div{
-    display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
-  .clients > div > div{
+  .clients div{
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 
   .clients img {
     width: 186px;
+    margin-bottom: 20px;
   }
 
   footer {
@@ -521,6 +470,11 @@
     nav {
       align-items: center;
     }
+
+    #clients h2{
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 
   @media screen and (max-width: 830px) {
@@ -550,9 +504,7 @@
       font-size: 1.6em;
     }
 
-    nav a:first-of-type {
-      padding: 0;
-    }
+
   }
 
   @media screen and (max-width: 550px) {
@@ -571,5 +523,20 @@
     nav a {
       margin: 0;
     }
+
+    nav a:first-of-type {
+      padding: 0;
+    }
+
+    .clients {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .clients div:first-of-type{
+      margin-bottom: 40px;
+    }
+
+
   }
 </style>

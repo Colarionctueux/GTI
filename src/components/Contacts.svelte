@@ -1,10 +1,9 @@
 <script>
-// @ts-nocheck
-
     import { faPhoneSquareAlt, faEnvelope, faLongArrowRight} from "@fortawesome/free-solid-svg-icons";
     import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
     import Fa from "svelte-fa";
     function sendemail(){
+        // @ts-ignore
         window.location = "mailto:stephane.eckman@gestion-technique-informatisee.fr"
     }
 </script>
