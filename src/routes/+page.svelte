@@ -118,7 +118,7 @@
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
     <div>
-      <picture><img src="/assets/fournisseurs/KEP.png" alt="logo KEP IoT vert et gris foncé" /></picture>
+      <picture><img src="/assets/fournisseurs/KEP.png" alt="logo KEP vert" /></picture>
       <button><Fa icon={faLongArrowDown} /></button>
     </div>
   </section>
@@ -133,6 +133,7 @@
         <img src="/assets/installateurs/engie.png" alt="logo engie solutions" />
         <img src="/assets/installateurs/brunet.png" alt="logo brunet alpha clima, l'offre multitechnique de proximité, Ortec group" />
         <img src="/assets/installateurs/herve-thermique.png" alt="logo brunet alpha clima, l'offre multitechnique de proximité, Ortec group" />
+        <img src="/assets/installateurs/spie.png" alt="logo spie, l'offre multitechnique de proximité, Ortec group" />
       </div>
   </section>
   <footer>
