@@ -20,10 +20,8 @@
     <div>
       <h1>Gestion technique informatisée</h1>
       <p>
-        Spécialistes de la gestion technique des <br />
-        bâtiments capables d’assembler et <br />
-        mettre en œuvre des systèmes ouverts <br />
-        au besoin du client
+        Spécialistes de la gestion technique des bâtiments capables d’assembler
+        et mettre en œuvre des systèmes ouverts au besoin du client
       </p>
     </div>
     <div class="side-accueil">
@@ -86,7 +84,8 @@
       <span slot="title"> Santé </span>
       <span slot="paragraph"
         >La santé c’est important, mangez au moins cinq fruits et légumes par
-        jour, ne mangez pas entre les repas et brossez vous les dents</span>
+        jour, ne mangez pas entre les repas et brossez vous les dents</span
+      >
     </Competence>
   </section>
   <section id="fournisseurs">
@@ -96,70 +95,104 @@
     </h2>
   </section>
   <section class="fournisseurs">
-  <div>
-    <picture><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
-  </div>
-  <div>
-    <picture><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
-  </div>
-  <div>
-    <picture><img src="/assets/distech.png" alt="logo fournisseur distech" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
-  </div>
-  <div>
-    <picture><img src="/assets/distech.png" alt="logo fournisseur distech" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
-  </div>
-  <div>
-    <picture><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
-  </div>
-  <div>
-    <picture><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
-  </div>
-  <div>
-    <picture><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
-  </div>
-  <div>
-    <picture><img src="/assets/distech.png" alt="logo fournisseur distech" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
-  </div>
-  <div>
-    <picture><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture>
-    <button><Fa icon={faLongArrowDown} /></button>
+    <div>
+      <picture
+        ><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
     </div>
-  </section>
-  <section id="clients">
-    <h2>Les clients qui nous font confiance</h2>
-    <h2>Nos clients constructeurs</h2>
+    <div>
+      <picture
+        ><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
+    </div>
+    <div>
+      <picture
+        ><img
+          src="/assets/distech.png"
+          alt="logo fournisseur distech"
+        /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
+    </div>
+    <div>
+      <picture
+        ><img
+          src="/assets/distech.png"
+          alt="logo fournisseur distech"
+        /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
+    </div>
+    <div>
+      <picture
+        ><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
+    </div>
+    <div>
+      <picture
+        ><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
+    </div>
+    <div>
+      <picture
+        ><img src="/assets/wago.png" alt="logo fournisseur wago" /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
+    </div>
+    <div>
+      <picture
+        ><img
+          src="/assets/distech.png"
+          alt="logo fournisseur distech"
+        /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
+    </div>
+    <div>
+      <picture
+        ><img src="/assets/trend.png" alt="logo fournisseur trend" /></picture
+      >
+      <button><Fa icon={faLongArrowDown} /></button>
+    </div>
   </section>
   <section class="clients">
+    <section id="clients">
+      <h2>Les clients qui nous font confiance</h2>
+      <h2>Nos clients constructeurs</h2>
+    </section>
     <div>
-      <img src="/assets/cofidis.png" alt="logo cofidis">
-      <img src="/assets/helicea.png" alt="logo hélicéa piscines">
-      <img src="/assets/centerparcs.png" alt="logo center parcs">
-    </div>
-    <div>
-      <img src="/assets/cofidis.png" alt="logo cofidis">
-      <img src="/assets/helicea.png" alt="hélicéa piscines">
-      <img src="/assets/centerparcs.png" alt="logo center parcs">
+      <div>
+        <img src="/assets/cofidis.png" alt="logo cofidis" />
+        <img src="/assets/helicea.png" alt="logo hélicéa piscines" />
+        <img src="/assets/centerparcs.png" alt="logo center parcs" />
+      </div>
+      <div>
+        <img src="/assets/cofidis.png" alt="logo cofidis" />
+        <img src="/assets/helicea.png" alt="hélicéa piscines" />
+        <img src="/assets/centerparcs.png" alt="logo center parcs" />
+      </div>
     </div>
   </section>
   <footer>
     <img src="/assets/Logo.svg" alt="logo GTI" />
     <a href="google.com" target="_blank">Mentions légales</a>
     <a href="google.com" target="_blank">Conditions générales</a>
-    <a href="mailto:stephane.eckman@gestion-technique-informatisee.fr">Nous contacter</a>
+    <a href="mailto:stephane.eckman@gestion-technique-informatisee.fr"
+      >Nous contacter</a
+    >
   </footer>
 </main>
 
 <style>
   :global(*) {
     font-family: "Prompt", sans-serif;
+  }
+
+  :global(html) {
     scroll-behavior: smooth;
   }
 
@@ -200,7 +233,6 @@
     background-position: 0 100%;
     background-size: 0% 2px;
     background-repeat: no-repeat;
-    height: 70%;
     transition: background-size 0.3s, background-position 0s 0.3s;
     margin-left: 25px;
     margin-right: 25px;
@@ -209,14 +241,14 @@
     text-decoration: none;
   }
 
-  nav a:hover{
+  nav a:hover {
     background-position: 100% 100%;
     background-size: 100% 2px;
   }
 
   nav div {
     display: flex;
-    height: 60px;
+    height: 40px;
   }
 
   section p {
@@ -235,6 +267,10 @@
     padding-top: 50px;
     margin-bottom: 60px;
     display: flex;
+  }
+
+  .accueil div:first-of-type {
+    width: 50%;
   }
 
   .side-accueil {
@@ -269,9 +305,19 @@
     font-size: 25px;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 10%;
     color: #002b3d;
     text-decoration: none;
+    background-image: linear-gradient(#002b3d 0 0);
+    background-position: 0 100%;
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s, background-position 0s 0.3s;
+  }
+
+  .side-accueil a:hover {
+    background-position: 100% 100%;
+    background-size: 100% 2px;
   }
 
   h2 {
@@ -288,7 +334,6 @@
     color: #002b3d;
     margin-bottom: 10px;
   }
-
 
   #competences h2 {
     top: 0;
@@ -315,15 +360,15 @@
     color: #002b3d;
   }
 
-  .fournisseurs{
+  .fournisseurs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 50px;
-    margin-bottom: 110px;
+    margin-bottom: 40px;
   }
 
-  .fournisseurs div{
+  .fournisseurs div {
     display: flex;
     position: relative;
     justify-content: center;
@@ -331,16 +376,16 @@
     transform: translateY(0);
     max-width: 450px;
   }
-  
+
   .fournisseurs img {
     height: 110px;
   }
-  
-  picture{
+
+  picture {
     border-radius: 10px;
     box-sizing: border-box;
     margin: 50px;
-    transition: all .3s;
+    transition: all 0.3s;
     background-color: rgb(255, 255, 255);
     border: 1px solid #002b3d;
     padding: 10px;
@@ -349,7 +394,7 @@
     position: relative;
   }
 
-  .fournisseurs picture::after{
+  .fournisseurs picture::after {
     content: "";
     position: absolute;
     bottom: -2px;
@@ -362,16 +407,16 @@
     opacity: 0;
   }
 
-  .fournisseurs picture:hover::after{
+  .fournisseurs picture:hover::after {
     opacity: 1;
   }
-  
-  .fournisseurs button{
+
+  .fournisseurs button {
     text-align: center;
     position: absolute;
     bottom: 25%;
     transform: translateY(0);
-    transition: all .3s;
+    transition: all 0.3s;
     color: #002b3d;
     background-color: rgb(255, 255, 255);
     border-radius: 0;
@@ -381,17 +426,17 @@
     border: 1px solid #002b3d;
     border-top: none;
   }
-  
-  .fournisseurs picture:hover + button{
+
+  .fournisseurs picture:hover + button {
     border-radius: 0 0 25% 25%;
     transform: translateY(23px);
   }
 
-  .fournisseurs picture:hover{
+  .fournisseurs picture:hover {
     transform: translateY(-23px);
   }
 
-  #clients{
+  #clients {
     position: relative;
     height: 200px;
     color: #002b3d;
@@ -403,26 +448,37 @@
     margin-bottom: 50px;
   }
 
-  #clients h2:last-of-type{
+  #clients h2:last-of-type {
     right: 9%;
     width: 27%;
   }
 
-  #clients h2:first-of-type{
+  #clients h2:first-of-type {
     left: 12%;
     width: 25%;
   }
 
-  .clients{
+  .clients {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
   }
 
-  .clients img{
-    width:186px;
+  .clients > div{
+    display: flex;
+    flex-direction: row;
   }
 
-  footer{
+  .clients > div > div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .clients img {
+    width: 186px;
+  }
+
+  footer {
     background-color: rgb(192, 192, 192);
     left: 0;
     position: absolute;
@@ -434,16 +490,86 @@
     margin-top: 70px;
   }
 
-  footer img{
+  footer img {
     height: 80%;
     margin-right: 20px;
   }
 
-  footer a{
+  footer a {
     margin-left: 20px;
     margin-right: 20px;
     color: #002b3d;
     text-decoration: none;
   }
 
+  @media screen and (max-width: 1246px) {
+    .side-accueil img:nth-child(2) {
+      top: 30%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .side-accueil {
+      display: none;
+    }
+
+    .accueil div:first-of-type {
+      width: 100%;
+      padding-right: 10%;
+    }
+
+    nav {
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 830px) {
+    nav {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+    }
+
+    nav a {
+      padding-top: 5%;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    nav div {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    nav a {
+      padding-top: 5%;
+    }
+
+    h2 {
+      font-size: 1.6em;
+    }
+
+    nav a:first-of-type {
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    nav div {
+      flex-direction: column;
+      height: 100%;
+    }
+
+    nav {
+      flex-direction: row;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 0;
+    }
+
+    nav a {
+      margin: 0;
+    }
+  }
 </style>

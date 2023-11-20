@@ -17,7 +17,7 @@
         <p> <Fa icon={faLinkedin}/> https://fr.likedin/je-ne-sais-pas</p>
     </div>
     <div>
-        <button>Demander un devis</button>
+        <button>Démonstration</button>
         <button on:click={sendemail}>Contacter<span><Fa icon={faLongArrowRight} /></span></button>
     </div>
 </main>
@@ -68,7 +68,7 @@
         border: 2px solid #0B8FB8;
         border-radius: 10px;
         height: 67px;
-        width: 258px;
+        width: 40%;
         font-weight: 200;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         transition: all .3s ease;
@@ -99,6 +99,27 @@
         background-position: 0 -100%;
         box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
         color: #ffffff;
+    }
+
+    @media screen and (max-width : 1030px){
+        p{
+            font-size: .9em;
+        }
+    }
+
+    @media screen and (max-width : 1000px){
+        div:last-of-type{
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        button{
+            width: 75%;
+        }
+
+        p{
+            padding-top: 5px;
+        }
     }
 
 </style>
