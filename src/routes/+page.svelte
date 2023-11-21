@@ -84,7 +84,7 @@
   </section>
   <section id="fournisseurs">
     <h2>
-      Les multiples fournisseurs<br />
+      Nos principaux fournisseurs<br />
       avec qui nous travaillons
     </h2>
   </section>
