@@ -134,6 +134,9 @@
         <img src="/assets/installateurs/brunet.png" alt="logo brunet alpha clima, l'offre multitechnique de proximité, Ortec group" />
         <img src="/assets/installateurs/herve-thermique.png" alt="logo brunet alpha clima, l'offre multitechnique de proximité, Ortec group" />
         <img src="/assets/installateurs/spie.png" alt="logo spie, l'offre multitechnique de proximité, Ortec group" />
+        <img src="/assets/installateurs/effetdo.png" alt="logo effet d'o, Chauffage sanitaire climatisation" />
+        <img src="/assets/installateurs/tem.png" alt="logo effet d'o, Chauffage sanitaire climatisation" />
+        <img src="/assets/installateurs/bail.png" alt="logo effet d'o, Chauffage sanitaire climatisation" />
       </div>
   </section>
   <footer>
@@ -153,6 +156,10 @@
 
   :global(html) {
     scroll-behavior: smooth;
+  }
+
+  :global(body){
+    overflow-x: hidden;
   }
 
   main > img:first-of-type {
@@ -401,31 +408,27 @@
   }
 
   #clients {
-    position: relative;
     height: 200px;
   }
 
   #clients h2 {
-    top: 0;
-    left: 195px;
-    width: 100%;
+    width: 55%;
   }
 
-  .clients {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+  
 
   .clients div{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .clients img {
     width: 186px;
     margin-bottom: 20px;
+    padding: 0 30px;
   }
 
   footer {
