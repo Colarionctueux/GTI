@@ -91,35 +91,35 @@
   <section class="fournisseurs">
     <div>
       <picture><img src="/assets/fournisseurs/trend.png" alt="logo fournisseur trend orange" /></picture>
-      <button><Fa icon={faLongArrowDown} /></button>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum urna at cursus tempus. Ut iaculis, velit ut aliquet pretium, ex tellus maximus risus, rutrum tristique orci nibh sit amet metus.</p>
     </div>
     <div>
       <picture><img src="/assets/fournisseurs/wago.png" alt="logo fournisseur wago vert" /></picture>
-      <button><Fa icon={faLongArrowDown} /></button>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum urna at cursus tempus. Ut iaculis, velit ut aliquet pretium, ex tellus maximus risus, rutrum tristique orci nibh sit amet metus.</p>
     </div>
     <div>
       <picture><img src="/assets/fournisseurs/distech.png" alt="logo fournisseur distech bleu"/></picture>
-      <button><Fa icon={faLongArrowDown} /></button>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum urna at cursus tempus. Ut iaculis, velit ut aliquet pretium, ex tellus maximus risus, rutrum tristique orci nibh sit amet metus.</p>
     </div>
     <div>
       <picture><img src="/assets/fournisseurs/honeywell.png" alt="logo fournisseur honeywell rouge"/></picture>
-      <button><Fa icon={faLongArrowDown} /></button>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum urna at cursus tempus. Ut iaculis, velit ut aliquet pretium, ex tellus maximus risus, rutrum tristique orci nibh sit amet metus.</p>
     </div>
     <div>
       <picture><img src="/assets/fournisseurs/belimo.png" alt="logo fournisseur belimo orange et noir" /></picture>
-      <button><Fa icon={faLongArrowDown} /></button>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum urna at cursus tempus. Ut iaculis, velit ut aliquet pretium, ex tellus maximus risus, rutrum tristique orci nibh sit amet metus.</p>
     </div>
     <div>
       <picture><img src="/assets/fournisseurs/thermokon.svg" alt="logo fournisseur thermokon rouge" /></picture>
-      <button><Fa icon={faLongArrowDown} /></button>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum urna at cursus tempus. Ut iaculis, velit ut aliquet pretium, ex tellus maximus risus, rutrum tristique orci nibh sit amet metus.</p>
     </div>
     <div>
       <picture><img src="/assets/fournisseurs/metz.png" alt="logo fournisseur metz connect bleu foncé et noir" /></picture>
-      <button><Fa icon={faLongArrowDown} /></button>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum urna at cursus tempus. Ut iaculis, velit ut aliquet pretium, ex tellus maximus risus, rutrum tristique orci nibh sit amet metus.</p>
     </div>
     <div>
       <picture><img src="/assets/fournisseurs/KEP.png" alt="logo KEP vert" /></picture>
-      <button><Fa icon={faLongArrowDown} /></button>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum urna at cursus tempus. Ut iaculis, velit ut aliquet pretium, ex tellus maximus risus, rutrum tristique orci nibh sit amet metus.</p>
     </div>
   </section>
   <section id="clients">
@@ -128,24 +128,22 @@
   </section>
   <section class="clients">
       <div>
-        <img src="/assets/installateurs/delannoydewailly.png" alt="logo delannoy dewailly" />
-        <img src="/assets/installateurs/dalkia.png" alt="logo dalkia, groupe edf" />
-        <img src="/assets/installateurs/engie.png" alt="logo engie solutions" />
+        <img src="/assets/installateurs/bail.png" alt="logo effet d'o, Chauffage sanitaire climatisation" />
         <img src="/assets/installateurs/brunet.png" alt="logo brunet alpha clima, l'offre multitechnique de proximité, Ortec group" />
+        <img src="/assets/installateurs/dalkia.png" alt="logo dalkia, groupe edf" />
+        <img src="/assets/installateurs/delannoydewailly.png" alt="logo delannoy dewailly" />
+        <img src="/assets/installateurs/effetdo.png" alt="logo effet d'o, Chauffage sanitaire climatisation" />
+        <img src="/assets/installateurs/engie.png" alt="logo engie solutions" />
         <img src="/assets/installateurs/herve-thermique.png" alt="logo brunet alpha clima, l'offre multitechnique de proximité, Ortec group" />
         <img src="/assets/installateurs/spie.png" alt="logo spie, l'offre multitechnique de proximité, Ortec group" />
-        <img src="/assets/installateurs/effetdo.png" alt="logo effet d'o, Chauffage sanitaire climatisation" />
         <img src="/assets/installateurs/tem.png" alt="logo effet d'o, Chauffage sanitaire climatisation" />
-        <img src="/assets/installateurs/bail.png" alt="logo effet d'o, Chauffage sanitaire climatisation" />
       </div>
   </section>
   <footer>
     <img src="/assets/Logo.svg" alt="logo GTI" />
     <a href="google.com" target="_blank">Mentions légales</a>
     <a href="google.com" target="_blank">Conditions générales</a>
-    <a href="mailto:stephane.eckman@gestion-technique-informatisee.fr"
-      >Nous contacter</a
-    >
+    <a href="mailto:stephane.eckman@gestion-technique-informatisee.fr">Nous contacter</a>
   </footer>
 </main>
 
@@ -160,13 +158,15 @@
 
   :global(body){
     overflow-x: hidden;
+    margin: 0;
   }
 
   main > img:first-of-type {
     z-index: -1;
     position: absolute;
     width: 100%;
-    top: -13%;
+    height: 180vh;
+    max-height: 1437px;
     left: 0;
   }
 
@@ -333,7 +333,7 @@
     padding: 50px;
     margin-bottom: 40px;
   }
-
+  
   .fournisseurs div {
     display: flex;
     position: relative;
@@ -360,28 +360,24 @@
     position: relative;
   }
 
-  .fournisseurs picture::after {
+  picture::after {
     content: "";
     position: absolute;
     bottom: -2px;
     left: 50%;
     transform: translateX(-50%);
-    width: 39px;
+    width: 300px;
     height: 4px;
     z-index: 20000;
     background-color: white;
     opacity: 0;
   }
   
-  img[src*="KEP.png"]{
-    width: 100%;
-  }
-  
-  .fournisseurs picture:hover::after {
+  picture:hover::after {
     opacity: 1;
   }
 
-  .fournisseurs button {
+  .fournisseurs p {
     text-align: center;
     position: absolute;
     bottom: 25%;
@@ -390,20 +386,21 @@
     color: #002b3d;
     background-color: rgb(255, 255, 255);
     border-radius: 0;
-    height: 40px;
-    width: 40px;
+    height: 100px;
+    width: 300px;
     font-size: 1.4em;
     border: 1px solid #002b3d;
     border-top: none;
+    font-size: 0.8em;
   }
 
 
-  .fournisseurs picture:hover + button {
-    border-radius: 0 0 25% 25%;
-    transform: translateY(23px);
+  .fournisseurs picture:hover + p {
+    border-radius: 0 0 10px 10px;
+    transform: translateY(100px);
   }
 
-  .fournisseurs picture:hover {
+  picture:hover {
     transform: translateY(-23px);
   }
 
@@ -415,14 +412,13 @@
     width: 55%;
   }
 
-  
-
   .clients div{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0 50px;
   }
 
   .clients img {
@@ -440,7 +436,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
   }
 
   footer img {
@@ -459,6 +454,24 @@
     .side-accueil img:nth-child(2) {
       top: 30%;
     }
+
+    main > img:first-of-type {
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      height: 220vh;
+      max-height: 1437px;
+      left: 0;
+    }
+
+    main > img:last-of-type {
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 340%;
+    }
+
   }
 
   @media screen and (max-width: 1000px) {
@@ -500,6 +513,10 @@
       margin-right: 5%;
     }
 
+    .accueil p{
+      font-size: 1.2em;
+    }
+
     nav a {
       padding-top: 5%;
     }
@@ -510,7 +527,7 @@
 
 
   }
-
+  
   @media screen and (max-width: 550px) {
     nav div {
       flex-direction: column;
@@ -532,6 +549,20 @@
       padding: 0;
     }
 
+    .fournisseurs img {
+      height: 80px;
+    }
+
+    .fournisseurs p{
+      font-size: 0.7em;
+      width: 200px;
+    }
+
+    .fournisseurs picture:hover + p {
+      border-radius: 0 0 10px 10px;
+      transform: translateY(80px);
+    }
+
     .clients {
       align-items: center;
       flex-direction: column;
@@ -541,6 +572,8 @@
       margin-bottom: 40px;
     }
 
-
+    footer a{
+      font-size: 0.7em;
+    }
   }
 </style>
